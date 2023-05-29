@@ -1,4 +1,4 @@
-#include"gen.hpp"
+#include"../headers/gen.hpp"
 
 Chromosome::Chromosome(int n, int p, double alpha,
                      double gama, double delta):m_n(n), m_p(p),

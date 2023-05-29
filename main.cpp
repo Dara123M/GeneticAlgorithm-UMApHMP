@@ -1,5 +1,5 @@
-#include"population.hpp"
-#include"loading.hpp"
+#include"headers/population.hpp"
+#include"headers/loading.hpp"
 #include<string.h>
 #include<iomanip>
 #include<time.h>
