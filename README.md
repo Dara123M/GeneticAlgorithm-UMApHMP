@@ -8,7 +8,6 @@ Uncapacitated Multiple Allocation p-hub Median Problem (UMApHMP) is one of the m
 * **Results**: Results of the GA (with and without local search) can be found in the folder results and down bellow:
 **AP instances**
 | Number of facilities | Number of hubs | Minimal duration | Number of iterations | Iteration threshold |
-|----------------------|----------------|------------------|------------------|----------------------|--------------------|
 | 10 | 2 | 1.45 | 200 | 200 |
 | 10 | 3 | 1.74 | 200 | 200 |
 | 10 | 4 | 2.08 | 201 | 200 | 
@@ -37,7 +36,6 @@ Uncapacitated Multiple Allocation p-hub Median Problem (UMApHMP) is one of the m
 | 200 | 3 | 2257.90 | 1642 | 1500 |
 | GA with local search |
 | Number of facilities | Number of hubs | Minimal duration | Number of iterations | Iteration threshold |
-|----------------------|----------------|------------------|------------------|----------------------|--------------------|
 | 10 | 2 | 1.73 | 200 | 200 |
 | 10 | 3 | 2.16 | 200 | 200 |
 | 10 | 4 | 2.59 | 200 | 200 | 
