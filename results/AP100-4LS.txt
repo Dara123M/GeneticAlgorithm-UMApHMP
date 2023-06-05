@@ -1,0 +1,120 @@
+the best one
+143004.306
+iterations done: 2066 out of: 5000
+iterations theshold: 2000
+duration (seconds): 1504.975
+
+the best one
+143004.306
+iterations done: 2359 out of: 5000
+iterations theshold: 2000
+duration (seconds): 1713.391
+
+the best one
+143004.306
+iterations done: 2197 out of: 5000
+iterations theshold: 2000
+duration (seconds): 1676.594
+
+the best one
+143004.306
+iterations done: 2033 out of: 5000
+iterations theshold: 2000
+duration (seconds): 1549.361
+
+the best one
+143004.306
+iterations done: 2075 out of: 5000
+iterations theshold: 2000
+duration (seconds): 1616.189
+
+the best one
+157869.925
+iterations done: 2027 out of: 5000
+iterations theshold: 2000
+duration (seconds): 1521.456
+
+the best one
+143004.306
+iterations done: 2064 out of: 5000
+iterations theshold: 2000
+duration (seconds): 1824.028
+
+the best one
+143004.306
+iterations done: 2144 out of: 5000
+iterations theshold: 2000
+duration (seconds): 1866.507
+
+the best one
+143004.306
+iterations done: 2070 out of: 5000
+iterations theshold: 2000
+duration (seconds): 1706.676
+
+the best one
+143004.306
+iterations done: 2038 out of: 5000
+iterations theshold: 2000
+duration (seconds): 1570.328
+
+the best one
+143004.306
+iterations done: 1560 out of: 5000
+iterations theshold: 1500
+duration (seconds): 1060.277
+
+the best one
+143004.306
+iterations done: 1598 out of: 5000
+iterations theshold: 1500
+duration (seconds): 1302.172
+
+the best one
+143004.306
+iterations done: 1643 out of: 5000
+iterations theshold: 1500
+duration (seconds): 1331.574
+
+the best one
+143004.306
+iterations done: 2185 out of: 5000
+iterations theshold: 1500
+duration (seconds): 1417.521
+
+the best one
+143004.306
+iterations done: 1874 out of: 5000
+iterations theshold: 1500
+duration (seconds): 1236.243
+
+the best one
+143004.306
+iterations done: 1892 out of: 5000
+iterations theshold: 1500
+duration (seconds): 1240.801
+
+the best one
+143004.306
+iterations done: 1658 out of: 5000
+iterations theshold: 1500
+duration (seconds): 1208.976
+
+the best one
+143004.306
+iterations done: 1773 out of: 5000
+iterations theshold: 1500
+duration (seconds): 1288.029
+
+the best one
+143004.306
+iterations done: 1821 out of: 5000
+iterations theshold: 1500
+duration (seconds): 1304.621
+
+the best one
+143004.306
+iterations done: 1974 out of: 5000
+iterations theshold: 1500
+duration (seconds): 1393.174
+

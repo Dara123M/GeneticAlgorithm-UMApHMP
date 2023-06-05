@@ -12,7 +12,7 @@ void calculateFitness(vector<unique_ptr<Chromosome>> &population, vector<vector<
 void printPopulation(vector<unique_ptr<Chromosome>> &population, int index);
 void reproduce(vector<unique_ptr<Chromosome>>& population, vector<unique_ptr<Chromosome>>& new_population, int elite_size, int n, int p, double alpha, double gama, double delta, float f, int k1, int k2, vector<int> &indexes_frozen);
 void crossover(Chromosome parent1, Chromosome* parent2, vector<int>& child1, vector<int>& child2, int n);
-vector<int> find_frozen_bits(vector<unique_ptr<Chromosome>> &population, unsigned int n);
+vector<int> find_frozen_bits(vector<unique_ptr<Chromosome>> &population, int n);
 int selection(vector<unique_ptr<Chromosome>>& population, int f, int except);
 void removeDuplicates(vector<unique_ptr<Chromosome>>& population);
 

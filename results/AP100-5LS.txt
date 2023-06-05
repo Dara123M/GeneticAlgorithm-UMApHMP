@@ -1,0 +1,108 @@
+the best one
+133482.575
+iterations done: 2070 out of: 5000
+iterations theshold: 1500
+duration (seconds): 1859.660
+
+the best one
+133482.575
+iterations done: 2635 out of: 5000
+iterations theshold: 1500
+duration (seconds): 2262.019
+
+the best one
+133482.575
+iterations done: 2847 out of: 5000
+iterations theshold: 1500
+duration (seconds): 2438.713
+
+the best one
+133482.575
+iterations done: 1586 out of: 5000
+iterations theshold: 1500
+duration (seconds): 1299.573
+
+the best one
+133482.575
+iterations done: 2001 out of: 5000
+iterations theshold: 1500
+duration (seconds): 1596.939
+
+the best one
+133482.575
+iterations done: 2031 out of: 5000
+iterations theshold: 1500
+duration (seconds): 1659.731
+
+the best one
+133482.575
+iterations done: 2673 out of: 5000
+iterations theshold: 1500
+duration (seconds): 2150.540
+
+the best one
+133482.575
+iterations done: 1696 out of: 5000
+iterations theshold: 1500
+duration (seconds): 877.409
+
+the best one
+133482.575
+iterations done: 2454 out of: 5000
+iterations theshold: 2000
+duration (seconds): 1975.380
+
+the best one
+133482.575
+iterations done: 2079 out of: 5000
+iterations theshold: 2000
+duration (seconds): 1573.761
+
+the best one
+133482.575
+iterations done: 2302 out of: 5000
+iterations theshold: 2000
+duration (seconds): 1768.876
+
+the best one
+133482.575
+iterations done: 2215 out of: 5000
+iterations theshold: 2000
+duration (seconds): 1820.757
+
+the best one
+133482.575
+iterations done: 2624 out of: 5000
+iterations theshold: 2000
+duration (seconds): 2067.943
+
+the best one
+133482.575
+iterations done: 2030 out of: 5000
+iterations theshold: 2000
+duration (seconds): 1309.332
+
+the best one
+133482.575
+iterations done: 2128 out of: 5000
+iterations theshold: 2000
+duration (seconds): 1368.094
+
+the best one
+133482.575
+iterations done: 2360 out of: 5000
+iterations theshold: 2000
+duration (seconds): 1408.239
+
+the best one
+133482.575
+iterations done: 2046 out of: 5000
+iterations theshold: 2000
+duration (seconds): 1223.539
+
+the best one
+133482.575
+iterations done: 2135 out of: 5000
+iterations theshold: 2000
+duration (seconds): 1586.416
+

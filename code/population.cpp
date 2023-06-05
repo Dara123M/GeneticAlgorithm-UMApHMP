@@ -198,12 +198,12 @@ void removeDuplicates(vector<unique_ptr<Chromosome>>& population){
     
 }
 
-vector<int> find_frozen_bits(vector<unique_ptr<Chromosome>>& population, unsigned int n){
+vector<int> find_frozen_bits(vector<unique_ptr<Chromosome>>& population, int n){
     vector<int> indexes;
-    for(unsigned i = 0; i < n; i++){
-        unsigned int sum = 0;
-        for(unsigned i = 0; i<population.size(); i++){
-            sum += population[i]->code()[i];
+    for(int i = 0; i < n; i++){
+        int sum = 0;
+        for(unsigned int j = 0; j<population.size(); j++){
+            sum += population[j]->code()[i];
         }
 
         if(int(population.size()*0.8) > sum || int(population.size()*0.2) < sum)

@@ -1,0 +1,60 @@
+the best one
+120581.992
+iterations done: 217 out of: 500
+iterations theshold: 200
+duration (seconds): 14.149
+
+the best one
+120581.992
+iterations done: 227 out of: 500
+iterations theshold: 200
+duration (seconds): 17.246
+
+the best one
+120581.992
+iterations done: 225 out of: 500
+iterations theshold: 200
+duration (seconds): 18.344
+
+the best one
+120581.992
+iterations done: 235 out of: 500
+iterations theshold: 200
+duration (seconds): 19.356
+
+the best one
+120581.992
+iterations done: 223 out of: 500
+iterations theshold: 200
+duration (seconds): 17.828
+
+the best one
+120581.992
+iterations done: 207 out of: 500
+iterations theshold: 200
+duration (seconds): 16.797
+
+the best one
+120581.992
+iterations done: 232 out of: 500
+iterations theshold: 200
+duration (seconds): 19.052
+
+the best one
+120581.992
+iterations done: 222 out of: 500
+iterations theshold: 200
+duration (seconds): 17.960
+
+the best one
+120581.992
+iterations done: 207 out of: 500
+iterations theshold: 200
+duration (seconds): 16.848
+
+the best one
+120581.992
+iterations done: 212 out of: 500
+iterations theshold: 200
+duration (seconds): 18.967
+

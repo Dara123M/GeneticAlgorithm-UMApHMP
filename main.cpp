@@ -3,17 +3,22 @@
 #include<string.h>
 #include<iomanip>
 #include<time.h>
+#include<chrono>
 
+using namespace chrono;
 #define NUM_UNITS 150
-#define NUM_ITERS 2000
-#define NUM_ITERS_LS 1000
+#define NUM_ITERS 5000
+#define NUM_ITERS_LS 50
 #define ELITE_SIZE 20
 #define FIRST_GROUP_SIZE 70
 #define SECOND_GROUP_SIZE 60
 #define TOURNAMENT_SIZE 5.6
+#define MILLISECONDS 1e-3
+#define INFINITY_M 1e9
+#define MIN_ITERS (int(NUM_ITERS*0.3))
 int main(int argc, char **argv){
 
-     if(argc!=2){
+     if(argc!=3){
         cerr << "no file"<< endl;
         exit(EXIT_FAILURE);
     }
@@ -35,12 +40,17 @@ int main(int argc, char **argv){
     }
     vector<unique_ptr<Chromosome>> population(NUM_UNITS), new_population(NUM_UNITS);
     
-    createPopulation(NUM_UNITS, population, n, p, alpha, gama, delta);
     cout << setprecision(precision) << fixed;
    
-   
-   vector<int> indexes_frozen;
-    for(int i=0; i<NUM_ITERS; i++){
+    
+    double min_fitness = INFINITY_M;
+    int counter = 0;
+    vector<int> indexes_frozen;
+    int i=0;
+    auto start = high_resolution_clock::now();
+    createPopulation(NUM_UNITS, population, n, p, alpha, gama, delta);
+
+    for(; i<NUM_ITERS; i++){
         calculateFitness(population, c, T);
         printPopulation(population, i);
 
@@ -50,16 +60,33 @@ int main(int argc, char **argv){
             population[i] = move(new_population[i]);
         }
         removeDuplicates(population);
-        localSearch(population[0], NUM_ITERS_LS, c, T);
+        //localSearch(population[0], NUM_ITERS_LS, c, T);
         
         new_population.clear();  
         indexes_frozen.clear();
-    }
 
+        if(min_fitness > population[0]->fitness()){
+            counter = 0;
+            min_fitness = population[0]->fitness();
+        }
+        counter++;
+
+        if(counter >= MIN_ITERS)
+            break;
+    }
+    auto stop = high_resolution_clock::now();
+    auto duration = duration_cast<milliseconds>(stop - start);
     population[0]->calculate_fitness(c, T);
     cout << "the best one" << endl;
     population[0]->print();
-    
+    fstream output(argv[2],ios_base::app);
+    output << setprecision(3) << fixed;
+    output << "the best one" << endl;
+    output << population[0]->fitness() << endl;
+    output << "iterations done: " << i+1 << " out of: "<< NUM_ITERS << endl;
+    output << "iterations theshold: " << MIN_ITERS << endl;
+    output << "duration (seconds): " << duration.count()*MILLISECONDS << endl << endl;
     population.clear();
+    output.close();
     return 0;
 }
