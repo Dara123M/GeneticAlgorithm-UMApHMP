@@ -37,12 +37,15 @@ Uncapacitated Multiple Allocation p-hub Median Problem (UMApHMP) is one of the m
 | 100 | 5 | 1014.74 | 2151 | 2000 | 1604.78 |
 | 200 | 2 | 1704.06 | 1552 | 1500 | 2045.07 |
 | 200 | 3 | 2257.90 | 1642 | 1500 | 3098.51 |
-| GA with local search |
+
+
+* **GA with local search**
+
 | Number of facilities | Number of hubs | Minimal duration | Number of iterations | Iteration threshold | Average duration |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | 10 | 2 | 1.73 | 200 | 200 | 1.79 |
 | 10 | 3 | 2.16 | 200 | 200 | 2.19 |
-| 10 | 4 | 2.59 | 200 | 200 |  |
+| 10 | 4 | 2.59 | 200 | 200 | 2.66 |
 | 10 | 5 | 3.11 | 201 | 200 | 3.37 |
 | 20 | 3 | 5.47 | 205 | 200 | 5.78 |
 | 20 | 4 | 5.18 | 205 | 200 | 5.32|
