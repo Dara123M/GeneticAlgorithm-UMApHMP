@@ -7,6 +7,8 @@ Uncapacitated Multiple Allocation p-hub Median Problem (UMApHMP) is one of the m
 * **Data used**: AP and CAB instances - [LINK](https://andreas-ernst.github.io/Mathprog-ORlib/info/readmeAP.html)
 * **Results**: Results of the GA (with and without local search) can be found in the folder results and down bellow:
 **AP instances**
+
+
 | Number of facilities | Number of hubs | Minimal duration | Number of iterations | Iteration threshold |
 | 10 | 2 | 1.45 | 200 | 200 |
 | 10 | 3 | 1.74 | 200 | 200 |
